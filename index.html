@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+
+  <div class="sidebar">
+    <div class="top">
+        <div class="logo">
+            <div class="user">
+                <img src="logo.jpg" alt="" class="icon-img">
+                <span class="bold">Boredom Killer</span>
+            </div>
+            
+
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+    </div>
+
+    <ul>
+        <li>
+            <a href="https://www.crazygames.com/game/ludo-king" target="_blank">
+                <img src="games_13751709.png" alt="" class="icon-img">
+                <span class="nav-item"> Ludo</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://pacman.live/play.html" target="_blank">
+                <img src="pacman_11378550.png" alt="" class="icon-img">
+                <span class="nav-item">Pacman</span>
+            </a>
+        </li>
+        <li>
+            <a href="https://checkers.online/play" target="_blank">
+                <img src="checkers.png" alt="" class="icon-img">
+                <span class="nav-item">Checkers</span>
+            </a>
+        </li>
+
+        <li>
+
+            <a href="https://www.chess.com/play" target="_blank">
+                <img src="competition_16507197.png" alt="" class="icon-img">
+                <span class="nav-item">Chess</span>
+            </a>
+        </li>
+            <li>
+                <a href="https://freeinvaders.org/" target="_blank">
+                    <img src="game_13929011.png" alt="" class="icon-img">
+                    <span class="nav-item">SpaceInvadors</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://chromedino.com/" target="_blank">
+                    <img src="95971_Dinosaur_Game.png" alt="" class="icon-img">
+                    <span class="nav-item">Dino Game</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.crazygames.com/game/snakes-and-ladders" target="_blank">
+                    <img src="snakes&Ladders.png" alt="" class="icon-img">
+                    <span class="nav-item">Snakes & Ladders</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://darksoulking.itch.io/platformer-2d-part-1" target="_blank">
+                    <img src="Screenshot 2024-10-14 184202.png" class="icon-img" >
+                    <span class="nav-item">Platformer 2D</span>
+                </a>
+            </li>
+            
+         
+            
+    </ul>
+  </div>
+   <div class="main-container">
+    <div class="container">
+        <h1>Boredom Killer</h1>
+    </div>
+   </div>
+<script>    
+    let btn = document.querySelector("#btn")
+    let sidebar = document.querySelector(".sidebar")
+    btn.onclick = function(){
+        sidebar.classList.toggle('active')
+    }
+</script>
+</body>
+</html>
